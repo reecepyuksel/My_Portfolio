@@ -14,8 +14,6 @@ import {
   SiSqlite,
   SiNestjs,
   SiPostgresql,
-  SiSwift,
-  SiKotlin,
   SiDotnet,
   SiCsharp,
   SiVisualstudiocode,
@@ -33,8 +31,6 @@ export default function Skills() {
       { name: "JavaScript", icon: <SiJavascript />, category: "programming" },
       { name: "SQL", icon: <SiSqlite />, category: "programming" },
       { name: "C#", icon: <SiCsharp />, category: "programming" },
-      { name: "Swift", icon: <SiSwift />, category: "programming" },
-      { name: "Kotlin", icon: <SiKotlin />, category: "programming" },
     ],
     frontend: [
       { name: "React", icon: <FaReact />, category: "frontend" },
@@ -46,6 +42,7 @@ export default function Skills() {
         category: "frontend",
       },
       { name: "HTML5 & CSS3", icon: <SiHtml5 />, category: "frontend" },
+      { name: "React Native", icon: <FaReact />, category: "frontend" },
       { name: "Bootstrap", icon: <SiBootstrap />, category: "frontend" },
       {
         name: "Framer Motion",
