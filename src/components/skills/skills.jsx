@@ -6,6 +6,7 @@ import {
   SiFramer,
   SiHtml5,
   SiJavascript,
+  SiNextdotjs,
   SiPostman,
   SiSwagger,
   SiTailwindcss,
@@ -37,6 +38,7 @@ export default function Skills() {
     ],
     frontend: [
       { name: "React", icon: <FaReact />, category: "frontend" },
+      { name: "Next.js", icon: <SiNextdotjs />, category: "frontend" },
       { name: "Tailwind CSS", icon: <SiTailwindcss />, category: "frontend" },
       {
         name: "JavaScript (ES6+)",
