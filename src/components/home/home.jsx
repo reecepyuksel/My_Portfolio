@@ -14,7 +14,7 @@ const Hero = () => {
   const { t } = useLanguage();
 
   const handleDownloadCV = () => {
-    window.open("/Recep-Yuksel_EN.pdf", "_blank");
+    window.open("/Recep-Yuksel_CV-EN.pdf", "_blank");
   };
 
   return (
